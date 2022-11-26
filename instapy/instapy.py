@@ -670,7 +670,7 @@ class InstaPy:
         return self
 
     def set_switch_language(self, option: bool = True):
-        self.switch_language = option
+        self.switch_language = False
         return self
 
     def set_use_clarifai(
